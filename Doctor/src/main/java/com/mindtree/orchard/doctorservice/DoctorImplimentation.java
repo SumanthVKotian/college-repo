@@ -49,5 +49,9 @@ public class DoctorImplimentation implements DoctorInterface {
 		// TODO Auto-generated method stub
 		docrepo.deleteById(id);
 	}
+	
+	public int add(int i,int j){
+	return i+j;
+}
 
 }
